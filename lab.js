@@ -116,9 +116,9 @@
 //i--
 //console.log (i)
 
-for (i=10; i>=0; i--) {
-  console.log(i)
-}
+// for (i=10; i>=0; i--) {
+//   console.log(i)
+// }
 
 
 ////////// PROBLEM 8 //////////
@@ -130,7 +130,14 @@ let passingScore = 7;
   Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
 */
 
-//CODE HERE
+//create a while-loop less than 7
+//console.log
+//increment
+
+while ( score < passingScore) {
+  console.log("Your score is not high enough")
+  score++
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
