@@ -101,9 +101,9 @@
 //add 1 to 1
 //console log
 
-for (i=1; i<=10; i++) {
-  console.log(i)
-}
+// for (i=1; i<=10; i++) {
+//   console.log(i)
+// }
 
 ////////// PROBLEM 7 //////////
 
@@ -111,7 +111,14 @@ for (i=1; i<=10; i++) {
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
 
-//CODE HERE
+//i=10
+//i is greater than or equal to 0
+//i--
+//console.log (i)
+
+for (i=10; i>=0; i--) {
+  console.log(i)
+}
 
 
 ////////// PROBLEM 8 //////////
