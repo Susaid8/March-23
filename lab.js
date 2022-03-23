@@ -86,9 +86,9 @@
 //add one to i
 //console.log
 
-for (i=0; i<10; i++){
-  console.log("Hello")
-}
+// for (i=0; i<10; i++){
+//   console.log("Hello")
+// }
 
 ////////// PROBLEM 6 //////////
 
@@ -96,7 +96,14 @@ for (i=0; i<10; i++){
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
 
-//CODE HERE
+//set i to 1
+//less than or equal to 10
+//add 1 to 1
+//console log
+
+for (i=1; i<=10; i++) {
+  console.log(i)
+}
 
 ////////// PROBLEM 7 //////////
 
