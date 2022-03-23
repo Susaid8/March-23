@@ -50,23 +50,23 @@
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
 
-var amysBirthYear = 1991;
-var brittanisBirthYear = 1986;
+// var amysBirthYear = 1991;
+// var brittanisBirthYear = 1986;
 
 //Step 1: if statement comparing equality
 //Step 2: console.log "amy and brittani were born in the same year"
 //Step 3: if not console.log "amy and britanni were not born the same year"
 
-if (amysBirthYear === brittanisBirthYear){
-  console.log("Amy and Brittani were born in the same year")
-}else{
-  console.log("Amy and Britanni were not born in the same year")
-}
+// if (amysBirthYear === brittanisBirthYear){
+//   console.log("Amy and Brittani were born in the same year")
+// }else{
+//   console.log("Amy and Britanni were not born in the same year")
+// }
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55;
-let rain = true;
+// let temperature = 55;
+// let rain = true;
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -81,7 +81,14 @@ let rain = true;
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
 
-//CODE HERE
+//set i=0
+//i is less than 10
+//add one to i
+//console.log
+
+for (i=0; i<10; i++){
+  console.log("Hello")
+}
 
 ////////// PROBLEM 6 //////////
 
